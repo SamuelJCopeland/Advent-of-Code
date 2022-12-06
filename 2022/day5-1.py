@@ -15,8 +15,7 @@ stacks = ["GFVHPS","GJFBVDZM","GMLJN","NGZVDWP","VRCB","VRSMPWLZ","THP","QRSNCHZ
 with open(r"2022/input5.txt", "r") as input_file:
     for line in input_file:
         line = line[:-1].split(' ')
-        #print(stacks)
-        #input(line)
+        
         amount = int(line[1])
         f = int(line[3])-1
         t = int(line[5])-1
