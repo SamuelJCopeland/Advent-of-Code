@@ -43,4 +43,5 @@ with open(r"2022/input10.txt", "r") as input_file:
                 screen += '.'
             
             cycle += 1
+screen = screen [1:]
 print(screen)
