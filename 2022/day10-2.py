@@ -14,7 +14,7 @@ with open(r"2022/input10.txt", "r") as input_file:
             if x-1 ==  pos or x == pos or x+1 == pos:
                 screen += '#'
             else:
-                screen += '.'
+                screen += ' '
 
             cycle += 1
 
@@ -26,7 +26,7 @@ with open(r"2022/input10.txt", "r") as input_file:
             if x-1 ==  pos or x == pos or x+1 == pos:
                 screen += '#'
             else:
-                screen += '.'
+                screen += ' '
             
             x += int(line[1])
 
@@ -40,7 +40,7 @@ with open(r"2022/input10.txt", "r") as input_file:
             if x-1 ==  pos or x == pos or x+1 == pos:
                 screen += '#'
             else:
-                screen += '.'
+                screen += ' '
             
             cycle += 1
 screen = screen [1:]
