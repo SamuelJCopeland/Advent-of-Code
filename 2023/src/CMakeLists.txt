@@ -7,12 +7,14 @@ set(SRC
 	stringParser.cpp
 	day1.cpp
 	day2.cpp
+	day3.cpp
 	)
 
 set(HDR
 	stringParser.hpp
 	day1.hpp
 	day2.hpp
+	day3.hpp
 	)
 	
 add_executable (AOC23 ${SRC} ${HDR})
