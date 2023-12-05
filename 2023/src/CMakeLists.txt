@@ -8,6 +8,7 @@ set(SRC
 	day1.cpp
 	day2.cpp
 	day3.cpp
+	day4.cpp
 	)
 
 set(HDR
@@ -15,6 +16,7 @@ set(HDR
 	day1.hpp
 	day2.hpp
 	day3.hpp
+	day4.hpp
 	)
 	
 add_executable (AOC23 ${SRC} ${HDR})

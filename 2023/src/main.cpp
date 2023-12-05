@@ -1,8 +1,8 @@
-#include "day3.hpp"
+#include "day4.hpp"
 
 int main()
 {
-   Day3 problem;
-   problem.Run("../../resources/day3.txt");
+   Day4 problem;
+   problem.Run("../../resources/day4.txt");
    return 0;
 }
